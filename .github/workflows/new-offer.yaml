@@ -1,0 +1,16 @@
+name: New Offer
+
+on:
+  workflow_dispatch:
+
+jobs:
+  bounty:
+      runs-on: ubuntu-latest
+      permissions:
+        issues: write
+
+      steps:
+        - uses: actions/checkout@v7
+        
+        - name: Generate Bounty
+          run: 'bash -c "./bounty.sh"'
