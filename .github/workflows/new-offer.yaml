@@ -13,4 +13,4 @@ jobs:
         - uses: actions/checkout@v7
         
         - name: Generate Bounty
-          run: 'bash -c "./bounty.sh"'
+          run: 'sudo chmod u+x "./bounty.sh" && bash -c "./bounty.sh"'
