@@ -51,7 +51,7 @@ Go on, make a pull request on GitHub! This is your task.
 ## Stats
 - 💰 Value: \$$MONEYZ
 - ☢️ Expiry: 24 hours from the creation of this issue
-- 💸 Claim by typing `/claim`.
+- 💸 Claim by typing \`/claim\`.
 EOF
 )
 
